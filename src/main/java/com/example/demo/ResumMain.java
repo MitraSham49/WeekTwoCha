@@ -25,6 +25,7 @@ public class ResumMain {
 
         String again = "";
         String SkillEnter="";
+         String endDate = " ";
 
         do {
 
@@ -85,7 +86,12 @@ public class ResumMain {
             System.out.println("Start date");
             newExperince.setStartYear(scan.nextLine());
             System.out.println("End date");
+
             newExperince.setEndYear(scan.nextLine());
+              endDate = newExperince.getEndYear();
+               if (endDate.equalsIgnoreCase("")){
+                   newExperince.setEndYear(" present");
+               }
              // add a line for not enter input
 
             System.out.println(" add some summary of your Job");
@@ -109,6 +115,8 @@ public class ResumMain {
             newProgram.setSkill(scan.nextLine());
             System.out.println(" set your skill rate , e.g. 1 to 5");
             newProgram.setSkillRate(scan.nextLine());
+            SkillEnter = newProgram.getSkillRate();
+
 
             programs.add(newProgram);
             System.out.println(newProgram);
