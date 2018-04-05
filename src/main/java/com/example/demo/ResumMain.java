@@ -26,8 +26,7 @@ public class ResumMain {
         String again = "";
         String SkillEnter="";
 
-
-    /*   do {
+        do {
 
             newPerson = new Person();
             System.out.println("Enter Person Name");
@@ -46,10 +45,10 @@ public class ResumMain {
                 donePer = true;
             }else{donePer =false;}
         } while (donePer);
-       */
+
 
         // education
-        /*
+
          do {
              newEduDegree = new EduDegree();
              System.out.println("Enter your Degree");
@@ -71,13 +70,12 @@ public class ResumMain {
              }else{doneEdu =false;}
          }while (doneEdu);
 
-*/
 
          ///  end report
 
 // add  Experince
 
-        /*
+
         do {
             newExperince =new Experince();
             System.out.println("Enter your Job title");
@@ -103,7 +101,6 @@ public class ResumMain {
             }else{doneExp =false;}
         }while (doneExp);
 
-        */
 
         do {
              newProgram = new Program();
