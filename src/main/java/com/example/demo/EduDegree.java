@@ -41,9 +41,7 @@ public class EduDegree {
 
     @Override
     public String toString() {
-        return (degree+ "  in " +
-                education  +", \n"+
-                 university + ",  " +
-                 year + "\n");
+        return (degree+ "  in " + education  +", \n"+
+                 university + ",  " + year + "\n");
     }
 }

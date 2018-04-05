@@ -50,12 +50,9 @@ public class Experince {
 
     @Override
     public String toString() {
-        return "Experince{" +
-                "company='" + company + '\'' +
-                ", jobTitle='" + jobTitle + '\'' +
-                ", StartYear='" + StartYear + '\'' +
-                ", endYear='" + endYear + '\'' +
-                ", description='" + description + '\'' +
-                '}';
+        return (jobTitle + "\n"
+                + company + "," + StartYear + " - " + endYear + "\n"
+                + "duties:=" + description );
+
     }
 }

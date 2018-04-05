@@ -22,9 +22,7 @@ public class Program {
 
     @Override
     public String toString() {
-        return "Program{" +
-                "skill='" + skill + '\'' +
-                ", skillRate='" + skillRate + '\'' +
-                '}';
+        return (skill + ",  " +
+                skillRate  );
     }
 }
